@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "lerna run dev --parallel",
     "postinstall": "lerna bootstrap",
+    "build": "lerna run build",
     "start": "cd apps/back-end && npm start"
   },
   "author": "",
